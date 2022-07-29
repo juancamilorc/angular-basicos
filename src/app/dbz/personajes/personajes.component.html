@@ -1,0 +1,9 @@
+
+
+<h3>Personajes</h3>
+<hr>
+    <ul>
+        <li *ngFor="let personaje of personajes">
+            {{personaje.nombre}} - {{personaje.poder | number}} <!--| number significa que quiere que se grafique como un tipo numero-->
+         </li>
+    </ul>  
